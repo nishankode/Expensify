@@ -1,0 +1,21 @@
+.expo/
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+google-services.json
+GoogleService-Info.plist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary & Archive files
+V5.zip
+window_dump.xml
+scratch/
+
+# Local Dev Tools
+.codex/
+.stitch-reference/
+

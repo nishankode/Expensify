@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Xpensify AI",
+    "slug": "xpensify-ai",
+    "scheme": "com.xpensify.ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-logo-small.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xpensify.ai"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.xpensify.ai",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#5B17F4"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f753873c-6716-4a5b-97f2-42b5274c1a5a"
+      }
+    }
+  }
+}
